@@ -1,0 +1,32 @@
+# Environment (kept in repo for easy reviewer setup — dev values only)
+# .env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Django
+*.log
+staticfiles/
+media/
+db.sqlite3
+
+# Docker
+.docker/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
