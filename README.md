@@ -38,7 +38,7 @@ This project was built using industry-standard tools for scalable web applicatio
 
 ---
 
-## Project Setup Instructions (Beginner Friendly)
+## Project Setup Instructions
 
 This project has been completely containerised using Docker. You do **not** need to install Python, Django, PostgreSQL, or Redis on your computer. Docker will handle everything for you!
 
@@ -79,7 +79,7 @@ docker-compose exec web python manage.py createsuperuser
 The easiest way to test this API is using the built-in interactive documentation (Swagger UI). 
 
 While the server is running (from Step 2), open your web browser and go to:
-👉 **[http://localhost:8000/api/docs/](http://localhost:8000/api/docs/)**
+**[http://localhost:8000/api/docs/](http://localhost:8000/api/docs/)**
 
 ### How to test the app using Swagger:
 
